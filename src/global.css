@@ -1,0 +1,20 @@
+body {
+  background-color: #52FFEE;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.questionsTag, .questions {
+  color : #2F2504
+}
+
+.questions {
+  font-size: 30px;
+}
