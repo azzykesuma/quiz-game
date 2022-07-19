@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Question from './Component/Question'
 function Questions() {
   return (
