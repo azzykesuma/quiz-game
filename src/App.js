@@ -8,7 +8,7 @@ function App() {
       <h5>Answering wrong question cost 1 lives, when all lives lost, the game over.</h5>
 
       <Link to="/Questions">
-            <button>Click</button>
+            <button className='startBtn'>Click</button>
       </Link>
     </>
   );

@@ -7,9 +7,6 @@ function Questions() {
       <h2 className='questionsTag'>Questions </h2>
       <Question />
       <br />
-      <Link to='/'>
-        <button>home</button>
-      </Link>
     </>
   )
 }

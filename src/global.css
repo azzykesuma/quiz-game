@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   background-color: #52FFEE;
   display : flex;
@@ -5,6 +7,16 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 90vh;
+  font-family: 'Roboto Mono', monospace;
+  color : #603140;
+}
+
+.startBtn {
+  padding : 10px;
+  border: none;
+  background-color: #D3D57C;
+  border-radius: 10px;
+  width : 70px;
 }
 
 ul {
@@ -17,4 +29,49 @@ ul {
 
 .questions {
   font-size: 30px;
+}
+
+.container {
+  max-width: 350px;
+}
+
+.answerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap : 20px;
+  padding-left: unset;
+}
+
+.answerBox {
+  background-color: #FDE8E9;
+  padding : 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.answerBox:hover {
+  background-color: #D4B483;
+}
+
+.selected {
+  background-color: #DAB6FC;
+}
+
+.btnContainer {
+  display: flex;
+  gap : 10px;
+}
+
+.homeBtn, .nextBtn {
+  padding : 10px;
+  background-color: #C7AA74;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+  color : #603140;
 }

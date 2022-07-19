@@ -29,4 +29,34 @@ export const answerData = [
         'The Hague',
         'Jakarta'
     ],
+    [
+        'Jerman',
+        'China',
+        'Italia',
+        'Prancis'
+    ],
+    [
+        'Honda',
+        'Nissan',
+        'Kawasaki',
+        'Mitsubishi'
+    ],
+    [
+        'Russia',
+        'Thailand',
+        'Swedia',
+        'Finlandia'
+    ],
+    [
+        'Musashi',
+        'USS enterprise',
+        'Yamato',
+        'HMS Lusitania'
+    ],
+    [
+        'Uang',
+        'Teh',
+        'Meriam',
+        'Kertas'
+    ],
 ]
